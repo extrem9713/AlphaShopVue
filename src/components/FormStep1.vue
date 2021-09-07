@@ -12,8 +12,8 @@
                 <label>稱謂</label>
                 <div class="select-wrapper">
                   <select
-                    name="a-type"
-                    id="a-type"
+                    name="gender"
+                    id="gender"
                     v-model="user.gender"
                     required
                   >
@@ -61,8 +61,8 @@
                 <label>縣市</label>
                 <div class="select-wrapper">
                   <select
-                    name="a-type"
-                    id="a-type"
+                    name="country"
+                    id="country"
                     v-model="user.city"
                     required
                   >
