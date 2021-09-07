@@ -20,7 +20,7 @@
             <div class="form-row card-number">
               <label for="">卡號</label>
               <input
-                id="name"
+                id="cardnumber"
                 type="text"
                 placeholder="1111 2222 3333 4444"
                 v-model="user.cardNumber"
@@ -31,7 +31,7 @@
               <div class="form-row date">
                 <label for="">有效日期</label>
                 <input
-                  id="name"
+                  id="goodThru"
                   type="text"
                   placeholder="MM/YY"
                   v-model="user.goodThru"
@@ -41,7 +41,7 @@
               <div class="form-row CVC">
                 <label for="">CVC/CCV</label>
                 <input
-                  id="name"
+                  id="CVC"
                   type="text"
                   placeholder="123"
                   v-model="user.CVC"
