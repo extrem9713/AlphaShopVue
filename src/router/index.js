@@ -9,14 +9,15 @@ const routes = [
   {
     path: '/',
     name: 'home',
-    component: ()=>import('../views/Checkout.vue')
+    component: () => import('../views/Checkout.vue'),
+    redirect: '/AlphaShop/Checkout/address',
   },
 
   {
     path: '/AlphaShop/Checkout',
     name: 'Checkout',
-    component: ()=>import('../views/Checkout.vue'),
-    redirect: '/AlphaShop/Checkout/address',
+    component: () => import('../views/Checkout.vue'),
+    
     children: [
       {
         path: 'address',
