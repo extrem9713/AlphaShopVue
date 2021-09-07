@@ -17,9 +17,9 @@
           </div>
           <div class="nav-right">
             <ul class="nav-list d-flex flex-row">
-              <li class="nav-item"><i class="fas fa-search"></i></li>
-              <li class="nav-item"><i class="fas fa-shopping-cart"></i><li>
-              <li class="nav-item"><i class="far fa-moon"></i></li>              
+              <li class="nav-item"><img src="../assets/icon1.png" alt="search" style="width:24px;height:24px;"></li>
+              <li class="nav-item"><img src="../assets/icon2.png" alt="cart" style="width:24px;height:24px;margin-left:33px;"><li>
+              <li class="nav-item"><img src="../assets/icon3.png" alt="moon" style="width:24px;height:24px;margin-left:33px;"></li>              
             </ul>
           </div>
         </nav>
@@ -30,3 +30,4 @@
      </div>
        
 </template>
+
