@@ -2,7 +2,7 @@
   <main id="main-content">
     
    <Header />
-    <Navbar />
+    
     <div class="container main-container">
       
 
@@ -43,7 +43,6 @@
 import Header from "../components/Header.vue"
 import StepPanel from "../components/StepPanel.vue"
 import ShoppingCartPanel from "../components/ShoppingCartPanel.vue"
-import Navbar from "../components/Navbar.vue"
 import Footer from "../components/Footer.vue"
 const STORAGE_KEY = "alpha-shop-vue"
 const STORAGE_ITEM = "alpha-shop-item-vue"
@@ -51,8 +50,7 @@ export default {
   components: {
     Header,
     StepPanel,   
-    ShoppingCartPanel,
-    Navbar,
+    ShoppingCartPanel,    
     Footer    
   },
   data() {
